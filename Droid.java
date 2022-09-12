@@ -10,7 +10,7 @@ public class Droid {
 
     public void performTask(String task) {
         batteryLevel = batteryLevel - 10;
-        System.out.println(name + " is perfoming task: " + task);
+        System.out.println(name + " is performing task: " + task);
     }
 
     public String toString() {
